@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Norse Bold';
+    font-weight: bold;
+    src: url('Norse-Bold.otf') format("opentype");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-family: Helvetica, sans-serif;
+}
+
+#left-side {
+    width: 40%;
+    background-image: url("leaves.jpg");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 70px;
+    font-family: 'Norse Bold';
+    background-color: rgba(0, 0, 0, 0.507);
+    margin-top: 200px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.logo p {
+    margin: 0;
+    padding-top: 20px;
+}
+
+#right-side {
+    width: 60%;
+    background-color: #f5f5f5;
+    padding-top: 150px;
+}
+
+.banner {
+    padding-left: 25px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+fieldset {
+    padding: 20px 25px;
+    border: none;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.216);
+    background-color: #ffffff;
+}
+
+.form-title {
+    font-weight: 600;
+}
+
+.div-inputs {
+    display: flex;
+}
+
+.div-inputs div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: x-small;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+    padding-top: 20px;
+    padding-bottom: 3px;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border: 1px solid #ff2929;
+}
+
+input:valid {
+    border: 1px solid #E5E7EB;
+}
+
+input:focus {
+    border: 1px solid #2942ff;
+}
+
+button {
+    color: white;
+    background-color: #596D48;
+    padding: 10px 0px;
+    width: 170px;
+    border: none;
+    border-radius: 5px;
+    margin: 25px;
+    box-shadow: 5px 5px 5px rgba(89, 109, 72, 0.165);
+    cursor: pointer;
+}
+
+#login {
+    margin: 0;
+    padding-left: 25px;
+    font-size: smaller;
+}
+
+#login a {
+    color: rgb(89, 109, 72);
+    text-decoration: none;
+    font-weight: bold;
+}
